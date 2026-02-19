@@ -1,0 +1,14 @@
+{
+  "name": "dstat-api",
+  "version": "1.0.0",
+  "description": "Dstat scraper API for Vercel",
+  "type": "module",
+  "main": "api/dstat.js",
+  "scripts": {
+    "start": "node api/dstat.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
